@@ -6,6 +6,11 @@ In questa cartella potete trovare i file e le cartelle di partenza della nostra 
 git clone https://github.com/AlexGrottola/BootstrapVite.git
 ```
 
+## Controllo lo stato del repository
+```bash
+git status 
+```
+
 ## Inizializzazione di GIT
 ```bash
 git init 
@@ -24,6 +29,14 @@ git config user.email "latuaemail"
 git config user.name "iltuonome"
 ```
 
+## Per cambiare il branch
+```bash
+git checkout nuovo_branch
+```
+
+## Modificare i file o il file
+modificare il file o i file del progetto.
+
 ## Aggiungere i file nello stage di GIT
 ```bash
 git add <nome del file>
@@ -33,6 +46,9 @@ git add <nome del file>
 ```bash
 git commit -m "Commento che spiega il cambiamento sul file"
 ```
+
+## Carico i cambiamenti sul repository di GitHub
+
 
 ## Visualizzare il log dei cambiamenti
 ```bash
