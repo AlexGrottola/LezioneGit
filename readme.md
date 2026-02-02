@@ -41,6 +41,11 @@ modificare il file o i file del progetto.
 ```bash
 git add <nome del file>
 ```
+### per aggiungere tutti i file e non un singolo file
+
+```bash
+git add .
+```
 
 ## Aggiungere il commit 
 ```bash
@@ -49,6 +54,20 @@ git commit -m "Commento che spiega il cambiamento sul file"
 
 ## Carico i cambiamenti sul repository di GitHub
 
+### aggiungo il repository remoto
+```bash
+git remote add origin https://github.com/AlexGrottola/sito-semplice-vitejs-bootstrap-esercizio.git
+```
+
+### mi sposto nel branch da caricare 
+```bash
+git branch -M main
+```
+
+### carico le mie modifiche sul repository 
+```bash
+git push -u origin main
+```
 
 ## Visualizzare il log dei cambiamenti
 ```bash
